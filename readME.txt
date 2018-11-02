@@ -23,14 +23,14 @@ ass1_keywords = 违规担保或担保一方出现问题
 ass2_keywords = 对外担保过多
 
 cre1_keywords = 相关人士或企业失信
-cre2_keywords = 挪用、占用资金
+cre2_keywords = 挪用或占用资金改变用途
 cre3_keywords = 评级关注及下调或列入负面观察或推迟评级
 cre4_keywords = 欺诈或虚假宣传或造假
 cre5_keywords = 企业失联列入经营异常或负债过高
 cre6_keywords = 企业相关人士或本身违约或信贷逾期
 
 fin1_keywords = 财务造假
-fin2_keywords = 发生亏损或财务指标下降
+fin2_keywords = 发生亏损下跌或财务指标下降
 fin3_keywords = 会计所问题
 fin4_keywords = 资不抵债或负债高
 fin5_keywords = 资金不足或来源不明
@@ -72,3 +72,9 @@ reg2_keywords = 监管措施
 reg3_keywords = 监管机构对某类业务采取更为严格的管理措施
 reg4_keywords = 审批不通过或监管叫停
 reg5_keywords = 问询或关注
+
+
+git status 看到On branch master,这个说明已经在master分之上了
+更新后使用git add * --代表更新全部
+git commit -m "更新说明”
+git push origin master
